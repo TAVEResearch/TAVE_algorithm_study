@@ -10,7 +10,7 @@
 - 프로그래머스: https://programmers.co.kr/learn/challenges
 - 코딜리티: TBA
 
-## 스케쥴
+## 스케쥴 (수정중🚧)
 
 - https://tall-hardware-692.notion.site/TAVE-algorithm-TAVE-ec9a8e62734d4297bdfc54bdf84768bf
 
