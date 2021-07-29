@@ -9,6 +9,11 @@
 - 교재: https://drive.google.com/file/d/1B2YBtWaLJU5X3uudSZEaOyNWQ_QoTZLG/view
 - 프로그래머스: https://chateval.org/dstc10
 
+## 스케쥴
+
+- 교재: https://drive.google.com/file/d/1B2YBtWaLJU5X3uudSZEaOyNWQ_QoTZLG/view
+- 프로그래머스: https://chateval.org/dstc10
+
 ## Baselines
 
 ### 1) Deep AM-FM: Toolkit for Automatic Dialogue Evaluation (Zhang et al., Lecture Notes in Electrical Engineering, vol 704. Springer, Singapore. 2021)
