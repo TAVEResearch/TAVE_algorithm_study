@@ -16,4 +16,4 @@
 
 <!-- ![l1](./imgs/logo_tave.png) -->
 <!-- ![l2](./imgs/logo_research.png) -->
-<img src = "./imgs/logo_tave.png" width="40%"> <img src = "./imgs/logo_research.png" width="50%">
+<img src = "./imgs/logo_research.png" width="60%"> <img src = "./imgs/logo_tave.png" width="30%"> 
