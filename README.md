@@ -12,8 +12,7 @@
 
 ## 스케쥴
 
-- 교재: https://drive.google.com/file/d/1B2YBtWaLJU5X3uudSZEaOyNWQ_QoTZLG/view
-- 프로그래머스: https://chateval.org/dstc10
+- https://tall-hardware-692.notion.site/TAVE-algorithm-TAVE-ec9a8e62734d4297bdfc54bdf84768bf
 
 ## Baselines
 
