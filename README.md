@@ -6,8 +6,9 @@
 
 ## 공부자료
 
-- 교재: https://drive.google.com/file/d/1B2YBtWaLJU5X3uudSZEaOyNWQ_QoTZLG/view
-- 프로그래머스: https://chateval.org/dstc10
+- 교재: https://github.com/onlybooks/algorithm-interview
+- 프로그래머스: https://programmers.co.kr/learn/challenges
+- 코딜리티: TBA
 
 ## 스케쥴
 
