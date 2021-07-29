@@ -1,9 +1,13 @@
 # 테이브 알고리즘 스터디
 
-## Course Material
+## 참여인원
 
-- Task Proposal: https://drive.google.com/file/d/1B2YBtWaLJU5X3uudSZEaOyNWQ_QoTZLG/view
-- Track Website: https://chateval.org/dstc10
+- 박제윤, 이상원, 오예림, 허주희, 임지현, 이하연, 이우빈
+
+## 공부자료
+
+- 교재: https://drive.google.com/file/d/1B2YBtWaLJU5X3uudSZEaOyNWQ_QoTZLG/view
+- 프로그래머스: https://chateval.org/dstc10
 
 ## Baselines
 
