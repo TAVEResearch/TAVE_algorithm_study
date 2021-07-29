@@ -13,7 +13,7 @@ def quicksort(A: List[int], lo: int, hi: int) -> None:
                 A[left], A[right] = A[right], A[left]
                 left += 1
 
-        A[left], A[hi] = A[hi], A[left]
+        A[left], A[hi] = A[hi], A[left] # pivot -> middle point
 
         return left
 
