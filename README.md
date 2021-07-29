@@ -14,5 +14,7 @@
 
 - https://tall-hardware-692.notion.site/TAVE-algorithm-TAVE-ec9a8e62734d4297bdfc54bdf84768bf
 
-![l1](./imgs/logo_tave.png){: width="100" height="100"}
-![l2](./imgs/logo_research.png){: width="100" height="100"}
+![l1](./imgs/logo_tave.png)
+![l2](./imgs/logo_research.png)
+<img src = "./imgs/logo_tave.png" width="40%">
+
