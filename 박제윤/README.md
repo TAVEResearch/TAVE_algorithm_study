@@ -1,1 +1,2 @@
-gd
+- interviews: 교재 코드 정리 디렉토리
+- programmers: 프로그래머스 풀이 디렉토리
