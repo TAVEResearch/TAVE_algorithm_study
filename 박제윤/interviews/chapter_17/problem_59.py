@@ -1,3 +1,3 @@
 # page: 497p
-# sol) Built-in function & from Linked list to List
+# sol) sort and merge
 pass
