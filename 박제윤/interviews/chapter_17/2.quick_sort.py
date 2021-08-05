@@ -1,3 +1,5 @@
+# quick sort (partition-exchange sort)
+# O(NlogN) to O(N^2)
 import random
 from typing import List
 
