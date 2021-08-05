@@ -1,6 +1,7 @@
 # quick sort (partition-exchange sort)
 # O(NlogN) to O(N^2)
 # O(N^2) -> e.g.) sorted list as input -> unable to divide
+# quick sort is also "Unstable Sort" (p488)
 import random
 from typing import List
 
