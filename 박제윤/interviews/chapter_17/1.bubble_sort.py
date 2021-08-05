@@ -1,3 +1,5 @@
+# Bubble sort
+# O(N^2)
 import random
 from typing import List
 
