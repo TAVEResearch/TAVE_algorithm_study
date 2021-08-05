@@ -12,7 +12,7 @@
 - 프로그래머스: https://programmers.co.kr/learn/challenges
 - 코딜리티: TBD
 
-## 목차 (수정중🚧)
+## 목차
 
 - 1장   코딩인터뷰 (p39 - p52 / 14 pages)
 - 2장   프로그래밍 언어선택 (p53 - 72 / 20 pages)
@@ -41,7 +41,7 @@
 - 부록 B   카카오 공채 문제 풀이
 
 
-## 스케쥴 (수정중🚧)
+## 스케쥴
 
 - https://tall-hardware-692.notion.site/TAVE-algorithm-TAVE-ec9a8e62734d4297bdfc54bdf84768bf
 
