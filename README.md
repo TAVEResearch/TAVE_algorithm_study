@@ -47,7 +47,7 @@
 
 ## Test-Driven Development (TDD)
 
-- Why TDD? (unit test): https://www.daleseo.com/python-unittest-testcase/ 
+- Unit test: https://www.daleseo.com/python-unittest-testcase/ 
 - TBD
 
 <!-- ![l1](./imgs/logo_tave.png) -->
