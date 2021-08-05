@@ -10,7 +10,7 @@
 
 - 교재: https://github.com/onlybooks/algorithm-interview
 - 프로그래머스: https://programmers.co.kr/learn/challenges
-- 코딜리티: TBA
+- 코딜리티: TBD
 
 ## 목차 (수정중🚧)
 
@@ -44,6 +44,11 @@
 ## 스케쥴 (수정중🚧)
 
 - https://tall-hardware-692.notion.site/TAVE-algorithm-TAVE-ec9a8e62734d4297bdfc54bdf84768bf
+
+## Test-Driven Development (TDD)
+
+- Why TDD? (unit test): https://www.daleseo.com/python-unittest-testcase/ 
+- TBD
 
 <!-- ![l1](./imgs/logo_tave.png) -->
 <!-- ![l2](./imgs/logo_research.png) -->
