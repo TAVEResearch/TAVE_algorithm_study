@@ -1,4 +1,4 @@
-# page: 497p
+# page: p497
 # sol) sort and merge
 from typing import List
 
