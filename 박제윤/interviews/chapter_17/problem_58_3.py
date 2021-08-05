@@ -1,3 +1,4 @@
+# page: 494p
 # sol.3) Built-in function & from Linked list to List
 class ListNode:
   def __init__(self, x):
