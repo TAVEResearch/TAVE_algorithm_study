@@ -1,6 +1,5 @@
 # page: p493
 # sol.2) Quick sort, no Lomuto (time-out issue)
-
 """
 It should be noted that Quick sort is not appropriate for Linked list:
 
