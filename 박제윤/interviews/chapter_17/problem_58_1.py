@@ -1,4 +1,4 @@
-# page: 489p
+# page: p489
 # sol.1) Merge sort using Runner
 class ListNode:
   def __init__(self, x):
