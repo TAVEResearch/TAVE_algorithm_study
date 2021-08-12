@@ -1,6 +1,7 @@
 # page: p520
 # sol.4) index()
 
+# "Disclaimer": index() is not Binary search! 
 from typing import List
 import bisect
 
