@@ -1,6 +1,8 @@
 # page: p520
 # sol.3) bisect module
 
+# Note that it's quite better method: mid = left + (right - left) / 2
+# to avoid overflow
 from typing import List
 import bisect
 
