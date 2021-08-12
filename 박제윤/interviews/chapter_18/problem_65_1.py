@@ -2,13 +2,16 @@
 # sol.1) recursion
 
 # It should be noted that the limitation of recursion call is 1,000
+# "Disclaimer": It's quite better method: mid = left + (right - left) // 2
+# to avoid overflow
 from typing import List
 
 def search(nums: List[int], target: int) -> int:
   def binary_search(left: int, right: int) -> int:
     if left <= right:
-      mid = (left + right) // 2
-
+#       mid = (left + right) // 2
+      mid = left + (right - left) // 2    
+  
       if nums[mid] < target:
         return binary_search(mid + 1, right)
       elif nums[mid] > target:
