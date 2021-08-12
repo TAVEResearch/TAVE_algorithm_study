@@ -1,5 +1,6 @@
 # page: p529
 # sol.1) Brute Force
+# O(N^2)
 from typing import List, Set
 
 def intersection(nums1: List[int], nums2: List[int]) -> List[int]:
