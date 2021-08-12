@@ -22,7 +22,7 @@ def search(nums: List[int], target: int) -> int:
     if nums[mid_pivot] <target:
       left = mid + 1
     elif nums[mid_pivot] > target:
-      right = mid + 1
+      right = mid - 1
     else:
       return mid_pivot
 
