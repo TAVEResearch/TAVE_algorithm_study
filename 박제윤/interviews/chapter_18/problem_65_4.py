@@ -7,7 +7,7 @@ import bisect
 def search(nums: List[int], target: int) -> int:
   try:
     return nums.index(target)
-  except ValueError:
+  except ValueError: # target doesn't exist
     return -1
 
 
