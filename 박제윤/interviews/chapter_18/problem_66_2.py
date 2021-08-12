@@ -5,6 +5,10 @@
 from typing import List
 
 def search(nums: List[int], target: int) -> int:
+  # exception
+  if not nums:
+    return -1
+  
   # find pivot
   pivot = nums.index(min(nums)) # like np.argmin()
   
