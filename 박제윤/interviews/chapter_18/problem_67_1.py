@@ -2,7 +2,7 @@
 # sol.1) Brute Force
 from typing import List, Set
 
-def intersection(nums1: List[int], nums2: List[int]) -> Set[int]:
+def intersection(nums1: List[int], nums2: List[int]) -> List[int]:
   result: Set = set()
 
   for n1 in nums1:
@@ -10,7 +10,7 @@ def intersection(nums1: List[int], nums2: List[int]) -> Set[int]:
       if n1 == n2:
         result.add(n1)
 
-  return result
+  return list(result)
 
 # result = [2]
 nums1 = [1, 2, 2, 1]
