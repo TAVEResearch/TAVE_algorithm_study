@@ -9,9 +9,7 @@ def solution(arr1: List[List[int]],
     answer = []
     
     for a1, a2 in zip(arr1, arr2):
-      print(a1, a2) 
       result = [a1_i + a2_i for a1_i, a2_i in zip(a1,a2)]
-    
       answer.append(result)
       
     return answer
