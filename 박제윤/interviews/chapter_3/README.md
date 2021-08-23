@@ -132,5 +132,52 @@ print(next(g))
 
 ## 6. range
 
+```
+print(list(range(5)))
+print(range(5))
+print(type(range(5)))
+
+for i in range(5):
+	print(i, end = ' ')
+```
+
+- 만약 생성할 숫자가 100만 개쯤 된다면? 메모리에서 적지 않은 공간을 차지할 것이고 시간도 오래 거릴 것임
+
+- 그러나 제너레이터와 같이 range 클래스만 리턴하면 그렇지 않음
+
+```
+a = [n for n in range(1000000)]
+b = range(1000000)
+
+print(len(a))
+print(len(b))
+print(len(a) == len(b))
+```
+
+- 하지만 a에는 이미 생성된 값이 담겨 있고, b는 생성해야 한다는 조건만 존재함
+
+```
+print(b)
+print(type(b))
+```
+
+- 이제 둘 사이의 메모리 점유율을 비교해보면 range 클래스를 리턴하는 방식의 장점이 쉽게 와닿을 것임
+
+```
+import sys
+
+print(sys.getsizeof(a))
+print(sys.getsizeof(b))
+```
+
+- 게다가 미리 생성하지 않은 값은 인덱스에 접근이 안될 거라 생각할 수 있으나, 인덱스로 접근 시에는 바로 생성하도록 구현되어 있기 때문에 다음과 같이 리스트와 거의 동일한 느낌으로 사용 가능함
+
+```
+print(b[999]) # 999
+```
+
+
+
+
 
 
