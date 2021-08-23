@@ -1,6 +1,5 @@
 # date: 2021.08.23
 # author: jeiyoon
-# s의 길이는 1 이상 1,000 이하입니다.
 def solution(s: str) -> int:
     min_length = len(s)
 
