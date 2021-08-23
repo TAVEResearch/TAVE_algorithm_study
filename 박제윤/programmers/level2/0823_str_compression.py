@@ -21,16 +21,13 @@ def solution(s: str) -> int:
 
           if idx >= len(s) - window_size - window_size: # last
             result.append(s[idx + window_size:])
-
-            
+          
           coefficient = 1
-
 
       if min_length >= len("".join(result)):
         min_length = len("".join(result))
 
     return min_length
-
 
 test_case = [
     "aabbaccc", # 7
