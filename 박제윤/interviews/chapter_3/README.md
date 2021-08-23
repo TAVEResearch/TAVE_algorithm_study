@@ -193,9 +193,47 @@ print(5 % 3) # 나머지
 ```
 
 
-9. print
+## 9. print
 
-- 
+- 실무에서 print()를 활용하는 디버깅 방법은 추천하지 않음
+
+- 하지만 코테시에 디버거를 사용하거나 TDD 방식으로 접근하기도 어렵기 때문에 print()가 거의 유일한 디버깅 수단임
+
+- 그렇다면 어떻게 하면 코테시 최대한 효율적으로 사용할 수 있을까?
+
+```
+print("A1", "B2", sep = ',')
+```
+
+- print() 함수는 항상 줄바꿈을 하기 때문에 긴 루프의 값을 반복적으로 출력하면 디버깅 하기 어려운데 이 경우 다음과 같이 end 파라미터를 공백으로 처리하여 줄바꿈을 하지 않도록 제한할 수 있음
+
+```
+print('aa', end=' ')
+print('bb')
+```
+
+- 리스트를 출력할 때는 join()으로 묶어서 처리함
+
+```
+a = ['A', 'B']
+print(' '.join(a))
+```
+
+- format
+
+```
+idx = 1
+fruit = "Apple"
+print('{0}: {1}'.format(idx + 1, fruit))
+print('{}: {}'.format(idx + 1, fruit))
+```
+
+- f-string(formated string literal)
+
+```
+print(f'{idx + 1}: {fruit}') # python > 3.6
+```
+
 
 
 
