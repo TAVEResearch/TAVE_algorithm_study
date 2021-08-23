@@ -53,5 +53,36 @@ pip install mypy
 
 ## 4. 리스트 컴프리핸션 (List Comprehension)
 
-- 
+- 람다 표현식 (lambda expression)
+
+```
+list(map(lambda x: x + 10, [1, 2, 3))
+```
+
+- "리스트 컴프리헨션"이란 기존 리스트를 기반으로 새로운 리스트를 만들어내는 구문
+
+```
+[n * 2 for n in range(1, 10 + 1) if n % 2 == 1]
+```
+
+- 리스트 외에도 딕셔너리 등이 가능함
+
+```
+a = {}
+
+for key, value in original.items():
+	a[key] = value
+```
+
+- 이와 같은 코드는 아래와 같이 처리할 수 있음 (딕셔너리 컴프리헨션)
+
+```
+a = {key: value for key, value in original.items()}
+```
+
+
+## 5. 제너레이터 (Generator)
+
+-
+
 
