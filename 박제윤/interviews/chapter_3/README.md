@@ -83,6 +83,54 @@ a = {key: value for key, value in original.items()}
 
 ## 5. 제너레이터 (Generator)
 
--
+- 제너레이터란 루프의 반복(iteration) 동작을 제어할 수 있는 루틴 형태
+
+- e.g.) 임의의 조건으로 숫자 1억 개를 만들어내 계산하는 프로그램을 작성한다고 할때, 제너레이터가 없다면 메모리 어딘가에 만들어낸 숫자 1억 개를 보관하고 있어야함
+
+- 이때 yield 구문을 사용하면 제너레이터를 리턴할 수 있음
+
+- yield 구문은 return을 만나면 값을 리턴하고 함수 동작을 종료하는 기존의 함수와 다르게, 중간값을 리턴한 다음 함수는 종료되지 않고 계속해서 맨 끝에 도달할 때 까지 실행됨
+
+```
+def get_natural_number():
+	n = 0
+	while True:
+		n += 1
+		yield n
+```
+
+- 리턴 값은 제너레이터가 됨
+
+```
+print(get_natural_number())
+```
+
+- 예를들어 100개의 값을 생성하고 싶다면 아래와 같이 100번동안 next()를 수행하면 됨
+
+```
+g = get_natural_number()
+
+for _ in range(0, 100):
+	print(next(g))
+```
+
+- 아울러 제너레이터는 다음과 같이 여러 타입의 값을 하나의 함수에서 생성하는 것도 가능함
+
+```
+def generator():
+	yield 1
+	yield 'string'
+	yield True
+
+g = generator()
+print(g)
+print(next(g))
+print(next(g))
+print(next(g))
+```
+
+
+## 6. range
+
 
 
