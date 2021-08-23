@@ -11,18 +11,19 @@ def solution(s: str) -> int:
         if s[idx:window_size + idx] == s[idx + window_size:window_size + idx + window_size]: # same
           coefficient += 1
         
-          if idx >= len(s) - window_size - window_size: # last 
+          if idx >= len(s) - window_size - window_size: # last iteration
             result.append(str(coefficient) + s[idx:window_size + idx])
+            
         else: # different
           if coefficient == 1:
             result.append(s[idx:window_size + idx])
           else:
             result.append(str(coefficient) + s[idx:window_size + idx])
 
-          if idx >= len(s) - window_size - window_size: # last
+          if idx >= len(s) - window_size - window_size: # last iteration
             result.append(s[idx + window_size:])
           
-          coefficient = 1
+          coefficient = 1 # reset
 
       if min_length >= len("".join(result)):
         min_length = len("".join(result))
