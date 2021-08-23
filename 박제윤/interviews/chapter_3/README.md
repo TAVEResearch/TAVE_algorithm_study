@@ -235,5 +235,10 @@ print(f'{idx + 1}: {fruit}') # python > 3.6
 ```
 
 
+## 10. locals
+
+- 
+
+
 
 
