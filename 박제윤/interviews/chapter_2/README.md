@@ -53,5 +53,29 @@ apple.price = 10
 
 ## 4. Class
 
+```
+from dataclasses import dataclass
 
+@dataclass
+class Rectangle:
+	width: int
+	height: int
+
+	def area(self):
+		return self.width * self.height
+
+rect = Rectangle(3, 4)
+print(rect.area())
+```
+
+- dataclass를 선언하게 되면 여러가지 내부 함수의 기능도 자동으로 구현해주기 때문에 편리하게 활용할 수 있음
+
+
+## 5. 결론
+
+- C++가 서비스의 주력 언어로 쓰이는 일이 드물고 주로 코어 모듈 쪽에 사용되다 보니 코어 개발을 해본 면접관이 아니라면 실제로는 문법을 제대로 알지 못할 가능성이 큼
+
+- C++와 JAVA를 수도코드로 쓰기엔 지나치게 산만함(verbose)
+
+- "파이썬 짱"
 
