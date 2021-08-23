@@ -34,6 +34,24 @@ MyStruct = namedtuple("MyStruct", "field1 field2 field3")
 m = MyStruct("foo", "bar", "baz")
 ```
 
-- 
+- 파이썬에는 구조체가 없을 뿐더러 클래스 또한 데이터 타입을 지정할 수 없어서 구조체와 같은 형태를 정의하려면 네임드 튜플을 사용해야했음
+
+- 파이썬 3.7부터는 "dataclass"를 지원하며, @dataclass 데코레이션(decoration)으로 타입 힌트와 함께 활용함으로써 다음과 같이 class를 이용해 구조체 형태롤 정의할 수 있음
+
+```
+# pip install dataclasses
+from dataclasses import dataclass
+
+@dataclass
+class Product:
+	weight: int = None
+	price: float = None
+
+apple = Product()
+apple.price = 10  
+```
+
+## 4. Class
+
 
 
