@@ -3,7 +3,6 @@
 """
 Timeout error occurs and i dont know why
 """
-from typing import List
 from itertools import product
 
 def solution(n: int) -> int:
