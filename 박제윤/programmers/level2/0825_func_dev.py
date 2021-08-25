@@ -47,6 +47,6 @@ def solution(progresses: List[int], speeds: List[int]) -> List[int]:
 
 # result = [1, 3, 2]
 progresses = [95, 90, 99, 99, 80, 99] # 5 -> 1, 10 -> 3, 20 -> 2
-speeds = 	[1, 1, 1, 1, 1, 1]
+speeds = [1, 1, 1, 1, 1, 1]
 
 print(solution(progresses, speeds))
