@@ -80,6 +80,21 @@ for key, value in original.items():
 a = {key: value for key, value in original.items()}
 ```
 
+- 한 줄에 집착하면서 지나치게 남발하게 되면 파이썬의 가독성을 떨어뜨리는 요인이 되기도 함
+
+```
+str1s = [str1[1:1 + 2].lower() for i in range(len(str) -1) if re.findall('[a-z]{2}', str[i:i+2].lower())]
+```
+
+- 다음과 같이 바꿔주면 가독성이 더 좋아짐. 아니면 아예 그냥 풀어써 쓰는게 가독성 측면에서 제일 좋긴함. 신중하게 사용할 것
+
+```
+str1s = [
+	str1[i:i+2].lower() for i in range(len(str1) - 1)
+	if re.findall('[a-z]{2}', str[i:i+2].lower())
+]
+```
+
 
 ## 5. 제너레이터 (Generator)
 
@@ -237,8 +252,20 @@ print(f'{idx + 1}: {fruit}') # python > 3.6
 
 ## 10. locals
 
-- 
+- 로컬 심볼 데이터를 딕셔너리로 가져옴
 
+- 함수 내부의 로컬 정보를 조회해서 잘못 선언한 부분이 없는지 확인하는 용도로 활용할 수 있음
+
+- 리트코드 문제풀이 중에도 코드 내부에 출력해 활용할 수 있음
+
+```
+import pprint
+
+pprint.pprint(locals())
+```
+
+
+## 11. locals
 
 
 
