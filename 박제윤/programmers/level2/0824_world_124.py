@@ -9,7 +9,6 @@ from itertools import product
 
 def solution(n: int) -> int:
   # 500,000,000
-  # exception
   for p in range(19): # power is 0 to 18  
     if n - (3 ** p) >= 0: 
       n = n - (3 ** p)
