@@ -4,8 +4,7 @@ from typing import List
 import math
 
 def solution(progresses: List[int], speeds: List[int]) -> List[int]:
-    answer = []
-    days = []
+    answer, days = [], []
 
     # calculate the days left
     for p, s in zip(progresses, speeds):
@@ -27,14 +26,14 @@ def solution(progresses: List[int], speeds: List[int]) -> List[int]:
 
     # check the duplications
     for idx in range(len(days) - 1):
-        if days[idx] == days[idx + 1]:
+        if days[idx] == days[idx + 1]: # same
             overlap += 1
-            if idx == len(days) - 2: # last
+            if idx == len(days) - 2: # last comparison
                 answer.append(overlap)
                 break
         else: # different
             answer.append(overlap)
-            if idx == len(days) - 2: # last
+            if idx == len(days) - 2: # last comparison
                 answer.append(1)
                 break
             else:
