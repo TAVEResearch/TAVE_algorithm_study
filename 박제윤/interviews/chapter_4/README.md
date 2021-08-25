@@ -113,5 +113,15 @@ print(a, id(a), id(b)) # differenct
 
 ## 8. is 와 ==
 
-- 
+- is 는 id를 비교
 
+- == 는 값을 비교
+
+- copy.deepcopy()로 복사한 결과 또한 값은 같지만 ID가 다름. 그래서 ==는 True, is는 False
+
+```
+a = [1, 2, 3]
+a == copy.deepcopy(a) # True
+
+a is copy.deepcopy(a) # False
+```
