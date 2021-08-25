@@ -265,7 +265,51 @@ pprint.pprint(locals())
 ```
 
 
-## 11. locals
+## 11. 구글 파이썬 스타일 가이드
 
+- 구글에서 정한 스타일 가이드
 
+- 함수의 기본 값으로 가변 객체 (Mutable Object)를 사용하지 않아야 함
 
+- 함수가 객체를 수정하면 기본값이 변경되기 때문.
+
+```
+No: def foo(a, b = []):
+
+No: def foo(a, b: Mapping = {}):
+```
+
+- 대신 아래와 같이 불변객체 (Immutable Object)를 사용함. None을 명시적으로 할당하는 것도 좋은 방법임
+
+```
+Yes: def foo(a, b = None):
+	if b is None:
+		b = []
+
+Yes: def foo(a, B = Optional[Sequence] = None):
+	if b is None:
+		b = []
+```
+
+- True, False를 판별할 때 암시적인(Implicit) 방법이 간결하고 가독성이 좋음
+
+```
+Yes: if not users:
+	print('no users')
+
+      if foo == 0:
+	self.handle_zero()
+      if i % 10 == 0:
+	self.handle_multiple_of_ten()
+
+No: if len(users) == 0:
+	print('no users')
+
+     if foo is not None and not foo:
+	self.handle_zero()
+
+     if not i % 10:
+	self.handle_multiple_of_ten()
+```
+ 	
+- 최대 줄 길이는 80
