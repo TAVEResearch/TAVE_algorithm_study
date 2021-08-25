@@ -25,6 +25,7 @@ def solution(progresses: List[int], speeds: List[int]) -> List[int]:
 
     overlap = 1
 
+    # check the duplications
     for idx in range(len(days) - 1):
         if days[idx] == days[idx + 1]:
             overlap += 1
