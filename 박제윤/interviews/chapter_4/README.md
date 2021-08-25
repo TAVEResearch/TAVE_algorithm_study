@@ -58,5 +58,60 @@ print(a) # {'a', 'b', 'c'}
 
 ## 6. 시퀀스 (Sequence)
 
+- 불변: str, tuple, bytes
+- 가변: list
+
+```
+a = 'abc'
+print(id('abc')) # 4317530408
+print(id(a)) # 4317530408
+
+a = 'def'
+print(id('def')) # 4318831648
+print(id(a)) # 4318831648
+
+a[1] = 'd' # TypeError: 'str' object does not support item assignment
+```
+
+
+## 7. 객체
+
+- 파이썬은 모든게 객체
+
+- 불변객체 (Immutable Object): bool, int, float, tuple, str
+
+- 가변객체 (Mutable Object): list, set, dict
+
+```
+a = 10
+b = a
+print(id(10), id(a), id(b)) # same
+```
+
+```
+a = [1, 2, 3, 4, 5]
+b = a
+print(b)
+a[2] = 4
+print(a)
+print(b)
+```
+
+- 주의: b에 새로운 값을 할당하게 되면 더이상 b 변수는 a 변수를 참조하지 않음.
+
+- 즉, 이제 b 변수는 7이라는 새로운 객체를 참조하게 됨
+
+```
+a = 10
+b = a
+print(id(a), id(b)) # same
+
+b = 7
+print(a, id(a), id(b)) # differenct
+```
+
+
+## 8. is 와 ==
+
 - 
 
