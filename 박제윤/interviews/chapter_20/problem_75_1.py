@@ -1,16 +1,18 @@
-# page: p571
+# p571
 # sol.1) brute force
 from typing import List
 
-def solution(nums: List[int], k: int) -> List[int]:
-  answer = []
-  for n in range(len(nums) - k + 1):
-    answer.append(max(nums[n:n+k]))
+def maxSlidingWindow(nums: List[int], k: int) -> List[int]:
+  if not nums:
+    return nums
 
-  return answer
+  r = []
 
-# result = [3, 3, 5, 5, 6, 7]
+  for i in range(len(nums) - k + 1):
+    r.append(max(nums[i:i+k]))
+
+  return r
+
 nums = [1, 3, -1, -3, 5, 3, 6, 7] # 6 = 8 - 3 + 1
 k = 3
-
-print(solution(nums, k))
+print(maxSlidingWindow(nums, k))
