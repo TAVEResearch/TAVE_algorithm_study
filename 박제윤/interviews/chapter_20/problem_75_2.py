@@ -1,17 +1,33 @@
-# p571
-# sol.1) brute force
+# p572
+# sol.2) optimization using queue
 from typing import List
+from collections import deque
+
 
 def maxSlidingWindow(nums: List[int], k: int) -> List[int]:
-  if not nums:
-    return nums
+  results = []
+  window = deque()
+  current_max = float('-inf')
 
-  r = []
+  for i,v in enumerate(nums):
+    window.append(v)
 
-  for i in range(len(nums) - k + 1):
-    r.append(max(nums[i:i+k]))
+    if i < k - 1:
+      continue
+    
+    # change if the new one is bigger than the previous one
+    if current_max == float('-inf'):
+      current_max = max(window)
+    elif v > current_max:
+      current_max = v
 
-  return r
+    results.append(current_max)
+
+    # reset if the max value pops
+    if current_max == window.popleft():
+      current_max = float('-inf')
+
+  return results
 
 nums = [1, 3, -1, -3, 5, 3, 6, 7] # 6 = 8 - 3 + 1
 k = 3
