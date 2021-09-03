@@ -4,7 +4,7 @@
 
 ## 참여인원
 
-- [박제윤](http://jeiyoon.github.io/), [이상원](https://s-wlii.github.io/), [오예림](https://yerimoh.github.io/), 허주희, 임지현, 이하연, [이우빈](https://woobni.github.io/)
+- [박제윤](http://jeiyoon.github.io/), [이상원](https://s-wlii.github.io/), [오예림](https://yerimoh.github.io/), 허주희, 임지현, 이하연, [이우빈](https://woobni.github.io/), 임예람
 
 ## 공부자료
 
