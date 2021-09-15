@@ -29,6 +29,30 @@ def solution(answers):
     return ansout
 
 
+def solution2(answers):
+    answer = []
+    std = [0] * 3
+    one = [1, 2, 3, 4, 5]
+    two = [2, 1, 2, 3, 2, 4, 2, 5]
+    three = [3, 3, 1, 1, 2, 2, 4, 4, 5, 5]
+    one = one * (len(answers) // len(one)) + one[:len(answers) % len(one)]
+    two = two * (len(answers) // len(two)) + two[:len(answers) % len(two)]
+    three = three * (len(answers) // len(three)) + three[:len(answers) % len(three)]
+
+    for i in range(len(answers)):
+        if answers[i] == one[i]:
+            std[0] += 1
+        if answers[i] == two[i]:
+            std[1] += 1
+        if answers[i] == three[i]:
+            std[2] += 1
+    top = max(std)
+    for i in range(len(std)):
+        if std[i] == top:
+            answer.append(i + 1)
+    return answer
+
+
 if __name__ == '__main__':
     answer = [1, 2, 3, 4, 5]
     print(solution(answer))

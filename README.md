@@ -35,7 +35,7 @@
 - 19장   비트 조작 (p541 - p568 / 28 pages)
 - 20장   슬라이딩 윈도우 (p569 - p583 / 15 pages)
 - 21장   그리디 알고리즘 (p585 - p606 / 22 pages)
-- 22장   분할 정복
+- 22장   분할 정복 (p607 - p620 / 14 pages)
 - 23장   다이나믹 프로그래밍
 - 부록 A   회사 및 이직 가이드
 - 부록 B   카카오 공채 문제 풀이
@@ -52,4 +52,4 @@
 
 <!-- ![l1](./imgs/logo_tave.png) -->
 <!-- ![l2](./imgs/logo_research.png) -->
-<img src = "./imgs/logo_tave_research.png" width="60%"> <img src = "./imgs/logo_tave.png" width="30%">
+[<img src = "./imgs/logo_tave_research.png" width="60%">](https://taveresearch.github.io/) [<img src = "./imgs/logo_tave.png" width="30%">](https://tavewave.github.io/) 
