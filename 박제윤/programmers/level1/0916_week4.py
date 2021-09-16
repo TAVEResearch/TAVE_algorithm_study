@@ -24,6 +24,7 @@ def solution(table: List[str], languages: List[str], preference: List[int]) -> s
         max_score = total_score
         answer = t_list[0]
       
+      # equals -> lexical order
       elif total_score == max_score:
         if not answer > t_list[0]:# ascending order: answer -> t_list[0] 
           pass
