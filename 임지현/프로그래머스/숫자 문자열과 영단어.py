@@ -30,6 +30,8 @@ def solution(s):
 
 
 
+s = "23four5six7"
+print(solution(s))
 
 
 
