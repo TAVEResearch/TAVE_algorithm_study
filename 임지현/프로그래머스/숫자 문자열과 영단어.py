@@ -29,7 +29,6 @@ def solution(s):
         return int(answer)
 
 
-
 s = "23four5six7"
 print(solution(s))
 
