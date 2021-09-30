@@ -1,5 +1,8 @@
 # date: 2021.09.30
 # author: jeiyoon
+"""
+통과는 했지만 마지막 reverse 조건 으로 짜면 안됨
+"""
 from typing import List
 
 def solution(weights: List[int], head2head: List[str]) -> List[int]:
