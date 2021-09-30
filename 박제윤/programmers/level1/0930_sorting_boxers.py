@@ -7,6 +7,7 @@ def solution(weights: List[int], head2head: List[str]) -> List[int]:
     # win rate & win heavier
     for player, (weight, h) in enumerate(zip(weights, head2head)):
       # win rate
+      # exception
       if h.count("N") == len(h):
         win_rate = 0
       else:
@@ -21,9 +22,7 @@ def solution(weights: List[int], head2head: List[str]) -> List[int]:
       boxer_list.append([win_rate, win_heavier, weight, player + 1])
 
     # priority: [win_rate, win_heavier, weight, smaller]
-    # print(boxer_list)
     boxer_list = sorted(boxer_list,  key = lambda x: (x[0], x[1], x[2]), reverse = True)
-    # print("new: ", boxer_list)
 
     return [p[-1] for p in boxer_list]
   
