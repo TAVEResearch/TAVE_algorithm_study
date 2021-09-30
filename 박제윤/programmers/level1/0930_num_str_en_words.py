@@ -1,7 +1,5 @@
 # date: 2021.09.30
 # author: jeiyoon
-import re
-
 def solution(s: str) -> int:
   number_vocab = ["zero", 
                   "one", 
