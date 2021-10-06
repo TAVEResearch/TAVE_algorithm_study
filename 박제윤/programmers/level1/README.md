@@ -5,4 +5,4 @@
 
 ## 코테 전 복습
 
-- 다트게임 (정규표현식)
+- [다트게임](https://github.com/TAVEResearch/TAVE_algorithm_study/blob/main/%EB%B0%95%EC%A0%9C%EC%9C%A4/programmers/level1/1006_dart.py) (정규표현식)
