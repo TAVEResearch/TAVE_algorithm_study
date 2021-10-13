@@ -1,9 +1,6 @@
-"""
-3,4,7,13,14,15,16,19,22,27,28,29,30 안풀림
-궁금해 죽을거같음
-"""
 # date: 2021.10.13
 # author: jeiyoon
+# 교훈: break와 continue를 사용할때 조심할것
 from typing import List
 
 def manhattan_distance(p1: List[int], p2: List[int]) -> int:
@@ -11,7 +8,7 @@ def manhattan_distance(p1: List[int], p2: List[int]) -> int:
 
 def solution(places: List[List[str]]) -> List[int]:
     answer = []
-    
+
     for place in places:
       coordinates_of_p = []
       # 1) p의 좌표 모두 구하기
@@ -30,34 +27,33 @@ def solution(places: List[List[str]]) -> List[int]:
           dist = manhattan_distance(coordinates_of_p[p1], coordinates_of_p[p2])
           if dist <=2:
             partition_check_list.append([coordinates_of_p[p1], coordinates_of_p[p2]])
-      
+
       # 3) 맨해튼 거리가 모두 3 이상이면 통과
       if len(partition_check_list) == 0:
         answer.append(1)
-        break
-      
+        continue # 여기가 절대로 break가 되면 안됨
+
       # 4) 맨해튼 거리가 2 이하인게 있으면 가림막 조사
       true_flag_list = []
-      
+
       for partition_check in partition_check_list:
         p1_x = partition_check[0][0]
         p1_y = partition_check[0][1]
         p2_x = partition_check[1][0]
         p2_y = partition_check[1][1] 
-        
+
         # 5) 가림막 잘 되어있으면 통과
         # 5-1) P X P
         # horizontal
         # 가로로 되어있는게 PXP 일수도 있고 PP 일수도 있음
         if p1_x == p2_x and p1_y != p2_y:
-          print("H")
           if abs(p1_y - p2_y) == 1: # PP
             answer.append(0)
             break 
           # P X P  
           x = p1_x
           y = int((p1_y + p2_y) / 2)
-          
+
           if place[x][y] != "X": # P or O
             answer.append(0)
             break
@@ -67,13 +63,12 @@ def solution(places: List[List[str]]) -> List[int]:
 
         # vertical
         elif p1_y == p2_y and p1_x != p2_x:
-          print("V")
           if abs(p1_x - p2_x) == 1: # PP
             answer.append(0)
             break 
           x = int((p1_x + p2_x) / 2)
           y = p1_y
-          
+
           if place[x][y] != "X": # P or O
             answer.append(0)
             break
@@ -83,7 +78,6 @@ def solution(places: List[List[str]]) -> List[int]:
 
         # diagonal
         elif p1_x != p2_x and p1_y != p2_y: # 두 p가 x,y 모두 다름
-          print("D")
           # 5-2) P X X P (2, 2)
           if place[p1_x][p2_y] != "X" or place[p2_x][p1_y] != "X":
             answer.append(0)
@@ -120,14 +114,14 @@ places =[["POOOP",
           "OOOXX", 
           "OXOOX", 
           "OOOOO"], 
-         ["PXPXP", 
+         ["PXPXP",# 3 4 2 4 3 3 4 2 3 2 1 1 0  
           "XPXPX", 
           "PXPXP", 
           "XPXPX", 
           "PXPXP"], # added case
          ["XXXXX",
-          "POXXX",
-          "XXPXX",
+          "PPPXX",
+          "XXXXX",
           "XXXXX",
           "XXXXX"]
          ]
