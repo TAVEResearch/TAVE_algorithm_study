@@ -50,3 +50,6 @@ new_ids = ["...!@BaT#*..y.abcdefghijklm", # "bat.y.abcdefghi"
            "123_.def", # "123_.def"
            "abcdefghijklmn.p", # "abcdefghijklmn"
            ] 
+
+for new_id in new_ids:
+  print(solution(new_id))
