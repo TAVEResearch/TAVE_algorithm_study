@@ -49,5 +49,4 @@ new_ids = ["...!@BaT#*..y.abcdefghijklm", # "bat.y.abcdefghi"
            "=.=", # "aaa"
            "123_.def", # "123_.def"
            "abcdefghijklmn.p", # "abcdefghijklmn"
-           "=.=.=.=.=.=.=.=.=.=.=.=.=.=.=." # "aaa"
            ] 
