@@ -20,6 +20,6 @@ def solution(n):
 # n = 45
 
 # result = 229
-# n = 125
+n = 125
 # n = 3
 print(solution(n))
