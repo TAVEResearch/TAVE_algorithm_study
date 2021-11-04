@@ -17,6 +17,7 @@ def solution(dartResult):
           new_list.append(dartResult[i])
 
     for idx,char in enumerate(new_list):
+        # char이 숫자일 때
         if char.isdigit():
             if first < 0:
                 first = idx
@@ -24,6 +25,7 @@ def solution(dartResult):
                 second = idx
             else:
                 third = idx
+        # char이 문자일 때
         elif char.isalpha():
             if char == 'S':
               continue;
@@ -31,6 +33,7 @@ def solution(dartResult):
                 new_list[idx-1] = int(new_list[idx-1])**2
             else:
                 new_list[idx-1] = int(new_list[idx-1])**3
+        # char이 옵션일 때(* or #)
         else:
             if char == '*':
                 if third < 0:
@@ -47,6 +50,4 @@ def solution(dartResult):
 
     
     return answer
-  
-  
-  
+
