@@ -1,5 +1,5 @@
 """
-Least Recently Used (LRU)란 가장 오래전에 상요된 아이템을 버리는 방식
+Least Recently Used (LRU)란 가장 오래전에 사용된 아이템을 버리는 방식
 
 길이가 제한된 자료형이 있다면 LRU를 구현하기 쉬움
 
