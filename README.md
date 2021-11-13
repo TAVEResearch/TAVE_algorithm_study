@@ -12,6 +12,10 @@
 - 프로그래머스: https://programmers.co.kr/learn/challenges
 - 코딜리티: https://app.codility.com/programmers/
 
+## 수상
+
+- 8기 전반기 3등 
+
 ## 목차
 
 - 1장   코딩인터뷰 (p39 - p52 / 14 pages) [✔] [✔]
