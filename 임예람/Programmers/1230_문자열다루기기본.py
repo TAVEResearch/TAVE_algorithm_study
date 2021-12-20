@@ -11,3 +11,8 @@ def solution(s):
     return answer
 
 print(solution(s))
+
+
+#다른 사람 풀이
+def alpha_string46(s):
+    return s.isdigit() and len(s) in (4, 6)
