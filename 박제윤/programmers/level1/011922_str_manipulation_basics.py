@@ -2,7 +2,7 @@
 # author: jeiyoon
 def solution(s: str) -> bool:
     try:    
-      return int(s) and len(s) == 4
+      return int(s) and len(s) in [4, 6]
     except:
       return False
 
