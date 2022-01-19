@@ -178,6 +178,9 @@ divmod()는 파이썬의 내장 함수로, 몫과 나머지로 구성된 튜플�
 원래 가산기는 논리 회로를 이용해 이진 연산을 수행하지만 여기서는 전체적인 구조만 참고하여 십진 연산에 응용해봤다.<br>
 전체 코드는 다음과 같다.
 ```python
+# 입력: (2 -> 4 -> 3) + (5 -> 6 -> 4)
+# 출력: 7 -> 0 -> 8
+
 def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
   root = head = ListNode(0)
   
