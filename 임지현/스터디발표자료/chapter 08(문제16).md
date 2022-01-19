@@ -199,5 +199,47 @@ def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
     
   return root.next
 ```
+* 실제 돌려볼 수 있는 코드
+```python
+class Node(object):
+  def __init__(self, val=0, next=None):
+    self.val = val
+    self.next = next
+
+class LinkedList():
+    def addTwoNumbers(self, l1: Node, l2: Node) -> Node:
+      root = head = Node(0)
+      
+      carry = 0
+      while l1 or l2 or carry:
+        sum = 0
+        # 두 입력값의 합 계산
+        if l1:
+          sum += l1.val
+          l1 = l1.next
+        if l2:
+          sum += l2.val
+          l2 = l2.next
+          
+        # 몫(자리올림수)과 나머지(값) 계산
+        carry, val = divmod(sum + carry, 10)
+        head.next = Node(val)
+        head = head.next
+        
+      return root.next
+
+
+
+q = LinkedList()
+n1 = Node(3)
+n2 = Node(4, n1)
+n3 = Node(2, n2)
+
+m1 = Node(4)
+m2 = Node(6, m1)
+m3 = Node(5, m2)
+
+print(q.addTwoNumbers(n3,m3))
+```
 <br><br>
 
