@@ -1,3 +1,5 @@
+# date: 2022.01.21
+# author: jeiyoon
 from typing import List
 
 # True -> 1 (1, 1), False -> (0, -1)
