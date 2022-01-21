@@ -12,6 +12,10 @@
 - 프로그래머스: https://programmers.co.kr/learn/challenges
 - 코딜리티: https://app.codility.com/programmers/
 
+## 스케쥴
+
+- https://tall-hardware-692.notion.site/Python-Algorithm-Study-TAVE-ec9a8e62734d4297bdfc54bdf84768bf
+
 ## 목차
 
 - 1장   코딩인터뷰 (p39 - p52 / 14 pages) [✔] [✔]
@@ -40,15 +44,6 @@
 - 부록 A   회사 및 이직 가이드 (p647 - p680 / 34 pages) [✔]
 - 부록 B   카카오 공채 문제 풀이 (p681 - p708/ 28 pages) [✔]
 
-
-## 스케쥴
-
-- https://tall-hardware-692.notion.site/Python-Algorithm-Study-TAVE-ec9a8e62734d4297bdfc54bdf84768bf
-
-## Test-Driven Development (TDD)
-
-- Unit test: https://www.daleseo.com/python-unittest-testcase/ 
-- TBD
 
 <!-- ![l1](./imgs/logo_tave.png) -->
 <!-- ![l2](./imgs/logo_research.png) -->
