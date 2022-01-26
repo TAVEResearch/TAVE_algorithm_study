@@ -8,7 +8,8 @@
 
 ## 공부자료
 
-- 교재: https://github.com/onlybooks/algorithm-interview
+- 교재 1: https://github.com/onlybooks/algorithm-interview
+- 교재 2: TBD
 - 프로그래머스: https://programmers.co.kr/learn/challenges
 - 코딜리티: https://app.codility.com/programmers/
 
@@ -26,7 +27,7 @@
 - 6장   문자열 조작 (p137 - p165 / 29 pages) [✔] [✔]
 - 7장   배열 (p169 - p198 / 30 pages) [✔] [✔]
 - 8장   연결리스트 (p199 - p240 / 42 pages) [✔] [✔]
-- 9장   스택, 큐 [✔] [✔]
+- 9장   스택, 큐 (p241 - p263 / 24 pages) [✔] [✔]
 - 10장   데크, 우선순위 큐 [✔]
 - 11장   헤시 테이블 [✔]
 - 12장   그래프 [✔]
