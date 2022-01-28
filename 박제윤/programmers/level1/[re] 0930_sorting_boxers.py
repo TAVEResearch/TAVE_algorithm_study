@@ -2,6 +2,7 @@
 # author: jeiyoon
 """
 통과는 했지만 마지막 reverse 조건 으로 짜면 안됨
+프로그래머스에 문제가 없어짐...
 """
 from typing import List
 
