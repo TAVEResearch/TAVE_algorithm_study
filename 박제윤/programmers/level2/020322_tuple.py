@@ -2,6 +2,7 @@
 # author: jeiyoon
 from typing import List
 import re
+from collections import Counter
 
 """
 \d는 숫자를 한 글자만 찾는다.
