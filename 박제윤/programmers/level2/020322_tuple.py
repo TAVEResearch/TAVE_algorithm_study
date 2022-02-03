@@ -3,32 +3,41 @@
 from typing import List
 import re
 
+"""
+\d는 숫자를 한 글자만 찾는다.
++는 '하나 혹은 그 이상 연결된' 이란 뜻이다.
+즉, \d+는 '하나 혹은 그 이상 연결된 숫자`이다.
+"""
 def solution(s: str) -> List[int]:
-  result = []
-  """
-  (1) extract num list from s
-  """
-  extracted_num_list = re.findall('\{([^)]+)\}', s)
-  deduplication_list = []
+  s = Counter(re.findall('\d+', s))
+  return list(map(int, [k for k, v in sorted(s.items(), key = lambda x: x[1], reverse = True)]))
 
-  """
-  (2) parsing
-  """
-  for extracted_num in extracted_num_list[0].split('},{'):
-    extracted_num = extracted_num.replace('{', '')
-    extracted_num = extracted_num.replace('}', '')
-    extracted_num = extracted_num.split(',')
-    deduplication_list.append(extracted_num)
+# def solution(s: str) -> List[int]:
+#   result = []
+#   """
+#   (1) extract num list from s
+#   """
+#   extracted_num_list = re.findall('\{([^)]+)\}', s)
+#   deduplication_list = []
 
-  """
-  (3) deduplication & preserve the order
-  """
-  for dedu_nums in sorted(deduplication_list, key = lambda x: len(x)):
-    for num in dedu_nums:
-      if int(num) not in result:
-        result.append(int(num))
+#   """
+#   (2) parsing
+#   """
+#   for extracted_num in extracted_num_list[0].split('},{'):
+#     extracted_num = extracted_num.replace('{', '')
+#     extracted_num = extracted_num.replace('}', '')
+#     extracted_num = extracted_num.split(',')
+#     deduplication_list.append(extracted_num)
+
+#   """
+#   (3) deduplication & preserve the order
+#   """
+#   for dedu_nums in sorted(deduplication_list, key = lambda x: len(x)):
+#     for num in dedu_nums:
+#       if int(num) not in result:
+#         result.append(int(num))
    
-  return result
+#   return result
 
 s_list = ["{{2},{2,1},{2,1,3},{2,1,3,4}}", # [2, 1, 3, 4]
           "{{1,2,3},{2,1},{1,2,4,3},{2}}", # [2, 1, 3, 4]
