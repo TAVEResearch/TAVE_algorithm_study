@@ -4,4 +4,4 @@
 
 ## 코테 전 복습
 
-- [튜플]() (정규표현식)
+- [튜플](https://github.com/TAVEResearch/TAVE_algorithm_study/blob/main/%EB%B0%95%EC%A0%9C%EC%9C%A4/programmers/level2/020322_tuple.py) (정규표현식, counter, map)
