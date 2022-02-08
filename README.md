@@ -4,13 +4,18 @@
 
 ## 참여인원
 
-- [박제윤](http://jeiyoon.github.io/), [이상원](https://s-wlii.github.io/), [오예림](https://yerimoh.github.io/), 허주희, 임지현, 이하연, [이우빈](https://woobni.github.io/), 임예람
+- [박제윤](http://jeiyoon.github.io/), [이상원](https://s-wlii.github.io/), [오예림](https://yerimoh.github.io/), 허주희, [이하연](https://harlie-98.tistory.com/), [이우빈](https://woobni.github.io/), 임예람
 
 ## 공부자료
 
-- 교재: https://github.com/onlybooks/algorithm-interview
+- 교재 1: https://github.com/onlybooks/algorithm-interview
+- 교재 2: TBD
 - 프로그래머스: https://programmers.co.kr/learn/challenges
 - 코딜리티: https://app.codility.com/programmers/
+
+## 스케쥴
+
+- https://tall-hardware-692.notion.site/Python-Algorithm-Study-TAVE-ec9a8e62734d4297bdfc54bdf84768bf
 
 ## 목차
 
@@ -22,8 +27,8 @@
 - 6장   문자열 조작 (p137 - p165 / 29 pages) [✔] [✔]
 - 7장   배열 (p169 - p198 / 30 pages) [✔] [✔]
 - 8장   연결리스트 (p199 - p240 / 42 pages) [✔] [✔]
-- 9장   스택, 큐 [✔]
-- 10장   데크, 우선순위 큐 [✔]
+- 9장   스택, 큐 (p241 - p263 / 24 pages) [✔] [✔]
+- 10장   데크, 우선순위 큐 (p265 - p278 / 14 pages) [✔]
 - 11장   헤시 테이블 [✔]
 - 12장   그래프 [✔]
 - 13장   최단 경로 문제 [✔]
@@ -40,15 +45,6 @@
 - 부록 A   회사 및 이직 가이드 (p647 - p680 / 34 pages) [✔]
 - 부록 B   카카오 공채 문제 풀이 (p681 - p708/ 28 pages) [✔]
 
-
-## 스케쥴
-
-- https://tall-hardware-692.notion.site/Python-Algorithm-Study-TAVE-ec9a8e62734d4297bdfc54bdf84768bf
-
-## Test-Driven Development (TDD)
-
-- Unit test: https://www.daleseo.com/python-unittest-testcase/ 
-- TBD
 
 <!-- ![l1](./imgs/logo_tave.png) -->
 <!-- ![l2](./imgs/logo_research.png) -->
