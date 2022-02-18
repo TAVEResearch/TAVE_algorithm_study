@@ -52,4 +52,4 @@
 
 <!-- ![l1](./imgs/logo_tave.png) -->
 <!-- ![l2](./imgs/logo_research.png) -->
-[<img src = "./imgs/logo_tave_research.png" width="60%">](https://taveresearch.github.io/) [<img src = "./imgs/logo_tave.png" width="30%">](https://tavewave.github.io/) 
+<img src = "./imgs/logo_tave_research.png" width="60%"> <img src = "./imgs/logo_tave.png" width="30%">
