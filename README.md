@@ -17,6 +17,10 @@
 
 - https://tall-hardware-692.notion.site/Python-Algorithm-Study-TAVE-ec9a8e62734d4297bdfc54bdf84768bf
 
+## 목차 (교재2: TBD)
+
+- 
+
 ## 목차 (교재 1: 파이썬 알고리즘 인터뷰)
 
 - 1장   코딩인터뷰 (p39 - p52 / 14 pages) [✔] [✔]
@@ -44,10 +48,6 @@
 - 23장   다이나믹 프로그래밍 (p621 - p646 / 26 pages) [✔]
 - 부록 A   회사 및 이직 가이드 (p647 - p680 / 34 pages) [✔]
 - 부록 B   카카오 공채 문제 풀이 (p681 - p708/ 28 pages) [✔]
-
-## 목차 (교재2: TBD)
-
-- 
 
 
 <!-- ![l1](./imgs/logo_tave.png) -->
