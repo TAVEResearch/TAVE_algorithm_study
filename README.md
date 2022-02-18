@@ -17,7 +17,7 @@
 
 - https://tall-hardware-692.notion.site/Python-Algorithm-Study-TAVE-ec9a8e62734d4297bdfc54bdf84768bf
 
-## 목차 (교재 1: )
+## 목차 (교재 1: 파이썬 알고리즘 인터뷰)
 
 - 1장   코딩인터뷰 (p39 - p52 / 14 pages) [✔] [✔]
 - 2장   프로그래밍 언어선택 (p53 - p72 / 20 pages) [✔] [✔]
