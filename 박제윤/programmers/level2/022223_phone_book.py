@@ -34,3 +34,16 @@ def solution(phone_book: List[str]) -> bool:
 phone_book = ["12","123","1235","567","88"]
 
 print(solution(phone_book))
+
+"""
+def solution_2(phone_book: List[str]) -> bool:
+  phone_book.sort()
+
+  # zip 이라서 하나짜리에 길이가 맞춰짐
+  for p1, p2 in zip(phone_book, phone_book[1:]):
+    print(p1, p2)
+    # "startswith"
+    if p2.startswith(p1):
+        return False
+  return True
+"""
