@@ -3,6 +3,7 @@
 - [17장　발표](https://nowgnas.github.io/posts/algo1/)
 - [6장 발표](https://nowgnas.github.io/posts/algo8/)
 - [8장 발표](https://nowgnas.github.io/posts/algo10/)
+- [12장 발표](https://nowgnas.github.io/posts/chap12/)
 
 ### 백준 풀이
 
