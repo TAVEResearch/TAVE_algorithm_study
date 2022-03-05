@@ -1,16 +1,17 @@
 #https://dndi117.tistory.com/entry/%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EA%B7%B8%EB%9E%98%ED%94%84-%EA%B7%B8%EB%9E%98%ED%94%84-%ED%83%90%EC%83%89BFSDFS-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%EC%9D%98-%EA%B8%B0%EC%B4%88#recentComments
-n, m = 3, 5
+n, m = 7, 8
 
 #만약 n개만큼의 정점이 존재하고, m개만큼의 입력을 받는다면 
-graph0 = [[] for _ in range(n+1)] # n+1개만큼의 공간을 만들어서 graph[n]이 n번 정점을 나타내도록 해 준다 
+graph = [[] for _ in range(n+1)] # n+1개만큼의 공간을 만들어서 graph[n]이 n번 정점을 나타내도록 해 준다 
 
-# for _ in range(m):
-#     x,y = map(int, input().split()) #만약 1 2를 입력받으면 
-#     graph[x].append(y) # 1번 정점에 2를 넣어주고 -> graph[1] = [2] 
-#     graph[y].append(x) # 2번 정점에 1을 넣어준다 -> graph[2] = [1]
-# print(graph)
+for _ in range(m):
+    x,y = map(int, input().split()) 
+    graph[x].append(y) 
+    graph[y].append(x) 
 
-graph = {
+print(graph)
+
+graph0 = {
     1 : [2,3,4], 
     2 : [5], 
     3 : [5], 
@@ -57,7 +58,3 @@ def iterative_bfs(start_v):
 # [1, 2, 3, 4, 5, 6, 7] [6, 7]
 # [1, 2, 3, 4, 5, 6, 7] [7]
 # [1, 2, 3, 4, 5, 6, 7]
-
-print(recursive_dfs(1))
-
-# print(graph2[1])
