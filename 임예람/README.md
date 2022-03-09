@@ -20,12 +20,12 @@
 ✅ 2021.12. (시험 기간)
 
 ✅ 2022.1.
-  > Ch7 배열(List)
-  > Ch8 연결리스트(Linked List)
+  > Ch7 배열(List)<br>
+  > Ch8 연결리스트(Linked List)<br>
   > Ch9 스택, 큐(Stack and Queue)
 
 ✅ 2022.2.
-  > Ch10 데크, 우선순위 큐(Deque)
+  > Ch10 데크, 우선순위 큐(Deque)<br>
   > Ch11 해시 테이블(Hash Table)
 
 ✅ 2022.3.
