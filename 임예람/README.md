@@ -61,3 +61,4 @@
 
 ✅ 2022.03.
   > Lv2. [오픈채팅방](https://itwithruilan.tistory.com/56?category=999011)<br> 
+  > Lv2. [멀쩡한 사각형](https://itwithruilan.tistory.com/73)<br>
