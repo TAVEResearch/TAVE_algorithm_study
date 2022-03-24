@@ -4,7 +4,7 @@
 
 ## 참여인원
 
-- [박제윤](http://jeiyoon.github.io/), [이상원](https://nowgnas.github.io/), 허주희, [이하연](https://harlie-98.tistory.com/), [이우빈](https://woobni.github.io/), [임예람](https://itwithruilan.tistory.com/)
+- [박제윤](http://jeiyoon.github.io/), [이상원](https://nowgnas.github.io/), [허주희](https://heojuhuigitblog.netlify.app/), [이하연](https://harlie-98.tistory.com/), [이우빈](https://woobni.github.io/), [임예람](https://itwithruilan.tistory.com/)
 
 ## 공부자료
 
