@@ -1,5 +1,5 @@
 # 테이브 알고리즘 스터디
-- 기간: 2021.03 - Now
+- 기간: 2021.03 - 2022.04
 - 시간: 매주 목요일 20:30
 
 ## 참여인원
@@ -12,16 +12,16 @@
 - 교재 2: [이것이 취업을 위한 코딩 테스트다 with Python](https://github.com/ndb796/python-for-coding-test)
 - 프로그래머스: https://programmers.co.kr/learn/challenges
 - 코딜리티: https://app.codility.com/programmers/
-
+<!-- 
 ## 스케쥴
 
-- https://tall-hardware-692.notion.site/Python-Algorithm-Study-TAVE-ec9a8e62734d4297bdfc54bdf84768bf
+- https://tall-hardware-692.notion.site/Python-Algorithm-Study-TAVE-ec9a8e62734d4297bdfc54bdf84768bf -->
 
-## 목차 (교재2: 이것이 취업을 위한 코딩 테스트다 with Python)
+<!-- ## 목차 (교재2: 이것이 취업을 위한 코딩 테스트다 with Python)
 
 - 
-
-## 목차 (교재 1: 파이썬 알고리즘 인터뷰)
+ -->
+## 목차 (파이썬 알고리즘 인터뷰)
 
 - 1장   코딩인터뷰 (p39 - p52 / 14 pages) [✔] [✔]
 - 2장   프로그래밍 언어선택 (p53 - p72 / 20 pages) [✔] [✔]
@@ -36,7 +36,7 @@
 - 11장   헤시 테이블 (p279 - p313 / 35 pages) [✔] [✔]
 - 12장   그래프 (p317 - p370 / 54 pages) [✔] [✔]
 - 13장   최단 경로 문제 (p371 - p382 / 12 pages) [✔] [✔]
-- 14장   트리 (p383 - p 445/ 63 pages) [✔] [✔]
+- 14장   트리 (p383 - p 445/ 63 pages) [✔]
 - 15장   힙 [✔]
 - 16장   트라이 [✔]
 - 17장   정렬 (p479 - p513 / 35 pages) [✔]
