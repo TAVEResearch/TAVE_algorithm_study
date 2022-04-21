@@ -8,10 +8,9 @@
 
 ## 공부자료
 
-- 교재 1: [파이썬 알고리즘 인터뷰](https://github.com/onlybooks/algorithm-interview)
-- 교재 2: [이것이 취업을 위한 코딩 테스트다 with Python](https://github.com/ndb796/python-for-coding-test)
+- 교재 : [파이썬 알고리즘 인터뷰](https://github.com/onlybooks/algorithm-interview)
+<!-- - 교재 2: [이것이 취업을 위한 코딩 테스트다 with Python](https://github.com/ndb796/python-for-coding-test) -->
 - 프로그래머스: https://programmers.co.kr/learn/challenges
-- 코딜리티: https://app.codility.com/programmers/
 <!-- 
 ## 스케쥴
 
